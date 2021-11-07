@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sticky.css">
+    <title>Sticky Navbar</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo">LOGO</div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">OUR TEAM</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia alias, 
+                sed repudiandae dolorum architecto nam officia possimus ut mollitia 
+                voluptatum et suscipit eveniet inventore corporis explicabo consequatur 
+                repellat quo iste recusandae eligendi quasi, nemo illum facilis. 
+                Reprehenderit architecto eos illum nesciunt eveniet. Et dignissimos odit 
+                architecto adipisci soluta facere obcaecati fuga consequatur, eum error 
+                reprehenderit quisquam deserunt, tenetur quaerat perspiciatis aperiam harum. 
+                Odio neque illo labore perspiciatis libero inventore alias animi ut 
+                repudiandae, maiores voluptate distinctio iste aliquam vitae eveniet 
+                sapiente qui sint veritatis aperiam laboriosam error cumque. At facilis 
+                vero fugiat voluptatum aliquam optio deserunt cumque velit animi! Dignissimos?
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque perspiciatis
+                 possimus fugiat cupiditate tenetur? Odit perferendis, praesentium fugit, 
+                 sapiente qui laudantium quis repellendus voluptatum unde similique officiis 
+                 cupiditate porro culpa quaerat iure nemo eligendi! Deserunt debitis saepe 
+                 distinctio numquam sed, quibusdam illum modi eius dolor porro illo quia 
+                 ducimus quidem!
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia alias, 
+                sed repudiandae dolorum architecto nam officia possimus ut mollitia 
+                voluptatum et suscipit eveniet inventore corporis explicabo consequatur 
+                repellat quo iste recusandae eligendi quasi, nemo illum facilis. 
+                Reprehenderit architecto eos illum nesciunt eveniet. Et dignissimos odit 
+                architecto adipisci soluta facere obcaecati fuga consequatur, eum error 
+                reprehenderit quisquam deserunt, tenetur quaerat perspiciatis aperiam harum. 
+                Odio neque illo labore perspiciatis libero inventore alias animi ut 
+                repudiandae, maiores voluptate distinctio iste aliquam vitae eveniet 
+                sapiente qui sint veritatis aperiam laboriosam error cumque. At facilis 
+                vero fugiat voluptatum aliquam optio deserunt cumque velit animi! Dignissimos?
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque perspiciatis
+                 possimus fugiat cupiditate tenetur? Odit perferendis, praesentium fugit, 
+                 sapiente qui laudantium quis repellendus voluptatum unde similique officiis 
+                 cupiditate porro culpa quaerat iure nemo eligendi! Deserunt debitis saepe 
+                 distinctio numquam sed, quibusdam illum modi eius dolor porro illo quia 
+                 ducimus quidem!
+            </p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else {
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
+</body>
+</html>
